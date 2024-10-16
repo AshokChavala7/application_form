@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Fromt</title>
+    <link rel="stylesheet" href="./sample.css">
+</head>
+<body>
+    <div class="contact_container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="left_container">
+            <div class="contact_left_title">
+                <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="5c6f0475-0216-442e-a7b7-af3d1ffdcb49">
+
+
+                <h2>Contact us</h2>
+                <hr>
+            </div>
+
+            <input class="contact_input" type="text" name="name" placeholder="enter your name" required>
+            <input class="contact_input" type="email" name="email" placeholder="enter your mail id" required>
+            <textarea class="contact" name="message" placeholder="enter your message" id="" required></textarea>
+            <button type="submit">submit</button>
+
+        </form>
+        <div class="right_container">
+            <img src="./img/lion.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script src="sample.js"></script>
